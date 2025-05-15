@@ -24,7 +24,7 @@
 ---
 
 ## 🌐 Demo (Live Preview)
-👉 [View Live Website](https://your-live-demo-link.com)
+👉 **View Live Website:** [View Live Website](https://your-live-demo-link.com)
 
 ---
 
@@ -80,9 +80,9 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/algohary-restaurant.git
+git clone https://github.com/Ahmed-Maher77/Algohary-Restaurant__web-app.git
 
 # Navigate to the folder
-cd algohary-restaurant
+cd Algohary-Restaurant__web-app
 
 # Open index.html in your browser
