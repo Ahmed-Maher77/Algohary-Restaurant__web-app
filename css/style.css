@@ -217,10 +217,6 @@ a:focus {
 }
 
 
-.custom_nav-container .navbar-nav .nav-item.active .nav-link:hover {
-	box-shadow: 0 4px 15px rgba(255, 190, 51, 0.2);
-}
-
 .custom_nav-container .nav_search-btn {
 	width: auto;
 	height: auto;
@@ -1646,5 +1642,13 @@ body {
 
 	.food_section .box:hover {
 		transform: translateY(-3px);
+	}
+}
+
+#developer-info {
+	color: #ffbe33 !important;
+	font-weight: 600;
+	&:hover {
+		color: #ff9900 !important;
 	}
 }
