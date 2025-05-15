@@ -84,5 +84,17 @@ git clone https://github.com/Ahmed-Maher77/Algohary-Restaurant__web-app.git
 
 # Navigate to the folder
 cd Algohary-Restaurant__web-app
-
 # Open index.html in your browser
+```
+---
+
+## 📬 Contact & Contribution
+
+Feel free to connect, report issues, or contribute:
+
+- 💼 Portfolio: [https://ahmedmaher-portfolio.vercel.app/](https://ahmedmaher-portfolio.vercel.app/)
+- 📧 Email: [ahmedmaher.dev1@gmail.com](mailto:ahmedmaher.dev1@gmail.com)
+- 🌍 LinkedIn: [https://www.linkedin.com/in/ahmed-maher-algohary](https://www.linkedin.com/in/ahmed-maher-algohary)
+
+> 🚀 Contributions, ideas, and feedback are always welcome!
+
