@@ -619,7 +619,10 @@
 				<div class="footer-info">
 					<p>
 						&copy; <span id="displayYear"></span> All Rights Reserved By
-						<a href="https://ahmedmaher-portfolio.vercel.app/" target="_blank" id="developer-info"
+						<a
+							href="https://ahmedmaher-portfolio.vercel.app/"
+							target="_blank"
+							id="developer-info"
 							>Ahmed Maher</a
 						>
 					</p>
@@ -647,7 +650,18 @@
 		<!-- custom js -->
 		<script src="js/custom.js"></script>
 		<!-- Google Map -->
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+		<script>
+			function initMap() {
+				// Load the Google Maps API dynamically
+				const script = document.createElement("script");
+				script.src = `https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=myMap`;
+				script.async = true;
+				script.defer = true;
+				document.head.appendChild(script);
+			}
+			// Initialize map when the page loads
+			window.addEventListener("load", initMap);
+		</script>
 		<!-- End Google Map -->
 		<script src="js/menu-data.js"></script>
 

@@ -93,11 +93,145 @@ $(document).ready(function () {
 
 /** google_map js **/
 function myMap() {
-	var mapProp = {
-		center: new google.maps.LatLng(40.712775, -74.005973),
-		zoom: 18,
+	// Restaurant location (Cairo, Egypt)
+	const restaurantLocation = {
+		lat: 30.0444,
+		lng: 31.2357,
 	};
-	var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+	// Map options
+	const mapOptions = {
+		center: restaurantLocation,
+		zoom: 15,
+		styles: [
+			{
+				featureType: "all",
+				elementType: "geometry",
+				stylers: [{ color: "#242f3e" }],
+			},
+			{
+				featureType: "all",
+				elementType: "labels.text.stroke",
+				stylers: [{ lightness: -80 }],
+			},
+			{
+				featureType: "administrative",
+				elementType: "labels.text.fill",
+				stylers: [{ color: "#746855" }],
+			},
+			{
+				featureType: "administrative.locality",
+				elementType: "labels.text.fill",
+				stylers: [{ color: "#d59563" }],
+			},
+			{
+				featureType: "poi",
+				elementType: "labels.text.fill",
+				stylers: [{ color: "#d59563" }],
+			},
+			{
+				featureType: "poi.park",
+				elementType: "geometry",
+				stylers: [{ color: "#263c3f" }],
+			},
+			{
+				featureType: "poi.park",
+				elementType: "labels.text.fill",
+				stylers: [{ color: "#6b9a76" }],
+			},
+			{
+				featureType: "road",
+				elementType: "geometry",
+				stylers: [{ color: "#38414e" }],
+			},
+			{
+				featureType: "road",
+				elementType: "geometry.stroke",
+				stylers: [{ color: "#212a37" }],
+			},
+			{
+				featureType: "road",
+				elementType: "labels.text.fill",
+				stylers: [{ color: "#9ca5b3" }],
+			},
+			{
+				featureType: "road.highway",
+				elementType: "geometry",
+				stylers: [{ color: "#746855" }],
+			},
+			{
+				featureType: "road.highway",
+				elementType: "geometry.stroke",
+				stylers: [{ color: "#1f2835" }],
+			},
+			{
+				featureType: "road.highway",
+				elementType: "labels.text.fill",
+				stylers: [{ color: "#f3d19c" }],
+			},
+			{
+				featureType: "water",
+				elementType: "geometry",
+				stylers: [{ color: "#17263c" }],
+			},
+			{
+				featureType: "water",
+				elementType: "labels.text.fill",
+				stylers: [{ color: "#515c6d" }],
+			},
+			{
+				featureType: "water",
+				elementType: "labels.text.stroke",
+				stylers: [{ lightness: -20 }],
+			},
+		],
+	};
+
+	// Initialize map
+	const map = new google.maps.Map(
+		document.getElementById("googleMap"),
+		mapOptions
+	);
+
+	// Add marker
+	const marker = new google.maps.Marker({
+		position: restaurantLocation,
+		map: map,
+		title: "Algohary Restaurant",
+		animation: google.maps.Animation.DROP,
+		icon: {
+			path: google.maps.SymbolPath.CIRCLE,
+			scale: 10,
+			fillColor: "#ffbe33",
+			fillOpacity: 1,
+			strokeColor: "#ffffff",
+			strokeWeight: 2,
+		},
+	});
+
+	// Add info window
+	const infoWindow = new google.maps.InfoWindow({
+		content: `
+			<div style="padding: 10px;">
+				<h3 style="margin: 0 0 5px 0; color: #222831;">Algohary Restaurant</h3>
+				<p style="margin: 0; color: #666;">Cairo, Egypt</p>
+			</div>
+		`,
+	});
+
+	// Add click listener to marker
+	marker.addListener("click", () => {
+		infoWindow.open(map, marker);
+	});
+
+	// Add hover effects
+	marker.addListener("mouseover", () => {
+		marker.setAnimation(google.maps.Animation.BOUNCE);
+	});
+
+	marker.addListener("mouseout", () => {
+		marker.setAnimation(null);
+	});
 }
 
 // client section owl carousel
