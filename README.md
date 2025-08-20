@@ -1,4 +1,4 @@
-# 🍽️ Algohary Restaurant - Web App
+# Algohary Restaurant - Web App
 
 **Algohary Restaurant** is a modern and responsive web application for a restaurant that delivers an elegant digital dining experience. Users can browse menu items, place orders, manage their cart, reserve tables, and contact the restaurant — all from a clean and interactive UI optimized for both desktop and mobile.
 
@@ -72,7 +72,9 @@
 
 ## 👀 Website Preview
 
-![Algohary Restaurant Preview](https://your-preview-image-link.com/preview.jpg)
+<a href="https://ahmed-maher77.github.io/Algohary-Restaurant__web-app/" title="demo">
+  <img src="https://github.com/user-attachments/assets/694940d2-5524-4bd6-9cd0-90260f1e4ff8" alt="website preview - UI Mockup" width="400">
+</a>
 
 ---
 
