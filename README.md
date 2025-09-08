@@ -6,20 +6,21 @@
 
 ## 💻 Used Technologies
 
-**Frontend:**
-- HTML5
-- CSS3 (Flexbox, Grid, CSS Variables, Animations)
-- JavaScript (ES6+)
-- jQuery
-- Isotope.js (menu filtering and layout)
-- Google Maps API
+- **🚀 Frontend**  
+  - **HTML/HTML5** → Provides semantic structure and accessible content.  
+  - **CSS/CSS3 (Flexbox, Grid, Variables, Animations)** → Delivers responsive layouts, reusable styling, and smooth animations.  
+  - **JavaScript (ES6+)** → Implements dynamic interactions and application logic.  
+  - **jQuery** → Simplifies DOM manipulation, event handling, and animations.  
+  - **Isotope.js** → Powers advanced menu filtering, sorting, and responsive layouts.  
+  - **Google Maps API** → Integrates interactive maps with location-based features.  
 
-**Design & UX:**
-- Responsive Web Design (Mobile-First)
-- Modern Typography (Dancing Script, Open Sans)
-- Lazy Loading
-- Custom CSS animations
-- Toast Notifications & Modal Confirmations
+- **🎨 Design & UX**  
+  - **Responsive Web Design (Mobile-First)** → Ensures usability across all devices.  
+  - **Modern Typography (Dancing Script, Open Sans)** → Enhances readability and visual appeal.  
+  - **Lazy Loading** → Optimizes performance by loading content on demand.  
+  - **Custom CSS Animations** → Adds engaging motion and smooth visual effects.  
+  - **Toast Notifications & Modal Confirmations** → Provides clear feedback and interactive user prompts.  
+
 
 ---
 
