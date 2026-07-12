@@ -4,6 +4,19 @@
 
 ---
 
+## 🌐 Demo (Live Preview)
+👉 **View Live Website:** [https://ahmed-maher77.github.io/Algohary-Restaurant__web-app/](https://ahmed-maher77.github.io/Algohary-Restaurant__web-app/)
+
+---
+
+## 👀 Website Preview
+
+<a href="https://ahmed-maher77.github.io/Algohary-Restaurant__web-app/" title="demo">
+  <img src="https://github.com/user-attachments/assets/694940d2-5524-4bd6-9cd0-90260f1e4ff8" alt="website preview - UI Mockup" width="400">
+</a>
+
+---
+
 ## 💻 Used Technologies
 
 - **🚀 Frontend**  
@@ -20,12 +33,6 @@
   - **Lazy Loading** → Optimizes performance by loading content on demand.  
   - **Custom CSS Animations** → Adds engaging motion and smooth visual effects.  
   - **Toast Notifications & Modal Confirmations** → Provides clear feedback and interactive user prompts.  
-
-
----
-
-## 🌐 Demo (Live Preview)
-👉 **View Live Website:** [https://ahmed-maher77.github.io/Algohary-Restaurant__web-app/](https://ahmed-maher77.github.io/Algohary-Restaurant__web-app/)
 
 ---
 
@@ -63,19 +70,6 @@
   - Testimonials section
   - Special offers highlight
   - Social media links
-
----
-
-## 🎥 Watch Video on LinkedIn
-🔗 [Watch Demo on LinkedIn](https://www.linkedin.com/in/your-profile)
-
----
-
-## 👀 Website Preview
-
-<a href="https://ahmed-maher77.github.io/Algohary-Restaurant__web-app/" title="demo">
-  <img src="https://github.com/user-attachments/assets/694940d2-5524-4bd6-9cd0-90260f1e4ff8" alt="website preview - UI Mockup" width="400">
-</a>
 
 ---
 
